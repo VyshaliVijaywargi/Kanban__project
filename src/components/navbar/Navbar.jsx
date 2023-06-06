@@ -28,7 +28,7 @@ const Navbar = () => {
       <button className={styles.arrow}>
         <KeyboardArrowDownIcon />
       </button>
-      <div className={styles.small_container}>
+      <div className={styles.small_container}> 
         <button className={styles.smallbox}>
           <WbIncandescentOutlinedIcon /> Power-Ups
         </button>
