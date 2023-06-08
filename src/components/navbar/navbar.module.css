@@ -1,7 +1,8 @@
 .main_container{
-    border: 2px solid lightgray;
+    border: 2px solid transparent;
     display: flex;
     height: 30px;
+    
 }
 .task {
  border: transparent;

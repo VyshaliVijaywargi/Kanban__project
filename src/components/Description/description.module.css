@@ -1,0 +1,123 @@
+.main{
+    /* border: 2px solid lightgray; */
+    width:40%;
+     margin: 10px auto; 
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+
+    
+}
+ 
+.line1{
+    display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+  /* justify-content: space-between;  */
+  /* padding: 10px; */
+  /* margin-bottom: 5px; */
+}
+.para_eye {
+    display: flex;
+
+    /* align-items: flex-start; */
+    /* justify-content: center; */ 
+    margin-top: 5px; 
+   
+
+}
+.task2{
+    margin-left: 10px;
+}
+.notify{
+    margin-top:2px ;
+}
+.close{
+    margin-left: 33vw;
+    padding-top: 15px;
+}
+.watching{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border: 1px solid black;
+    
+    cursor: pointer;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.visible:hover{
+    background-color: lightgray;
+}
+.visible{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: whitesmoke;
+    width: 8vw;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.decs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+.inputbox{
+    border:1px solid black;
+    outline: none;
+    height:20vh;
+    width:37vw;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.savebtn{
+    width: 70px;
+    border-radius: 3px;
+    margin-left: 20px;
+    background-color: skyblue;
+
+}
+.savebtn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 178, 248) ;
+}
+.activity{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    gap: 5px;
+}
+.details{
+    margin-left: 27vw;
+}
+.person{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    gap: 5px;
+}
+.cmntbox{
+    width: 37vw;
+}
+
+
+
+
+
+
+
+
+
+
